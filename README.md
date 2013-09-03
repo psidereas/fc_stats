@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FcStats
 
 TODO: Write a gem description
@@ -27,3 +28,9 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+fc_stats
+========
+
+Gem to gather and parse soccer scores and stats.
+>>>>>>> 5eb551c5a1e1e5e9251c58ace5a37d0d5e4202b9
