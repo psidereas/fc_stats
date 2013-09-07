@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FcStats
 
 TODO: Write a gem description
