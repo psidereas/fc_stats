@@ -2,12 +2,21 @@ require 'spec_helper'
 
 module FcStats
   describe '.get_club' do
-    it 'should return a club page' do
-      pending
+    before do
+      @scores = FcStats::Scores
+    end
+    
+    it 'should raise an exception if club not found' do
+      lambda { @scores.get_club "FakeClubName" }.should raise_exception
     end
 
-    it 'should raise an exception if club not found' do
-      pending
+    it 'should not raise an exception if club found' do
+      lambda { @scores.get_club "Chelsea" }.should_not raise_exception
+    end
+
+    it 'should return a club page' do
+      page = @scores.get_club 'Arsenal'
+      page.is_a?(Mechanize::Page) == true 
     end
   end
 
