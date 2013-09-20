@@ -41,7 +41,8 @@ FcStats::Scores.get_all_squad_stats 'ClubName'
 ## TODOs
 
 1. Write tests
-2. Implement the FcStats::Scores.get_all_squad_stats 'ClubName' to retrieve all 'ClubName' player stats
-3. Implement retrieving specific player stats
-4. Need greater fault tolerance/exception handling
-5. Need 'ClubName' checking
+2. Seperate the Mechanize initialization into it's own class
+3. Implement the FcStats::Scores.get_all_squad_stats 'ClubName' to retrieve all 'ClubName' player stats
+4. Implement retrieving specific player stats
+5. Need greater fault tolerance/exception handling
+6. Need 'ClubName' checking

@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'mechanize'
 
-   SOURCE_URL = 'http://espnfc.com/league/_/id/eng.1/barclays-premier-league?cc=5901'
+SOURCE_URL = 'http://espnfc.com/league/_/id/eng.1/barclays-premier-league?cc=5901'
 
 module FcStats
   class Scores
