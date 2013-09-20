@@ -10,7 +10,7 @@ module FcStats
 	  begin
 		club_page = get_page club
 	  rescue
-	  	raise "Club not found"
+	  	raise "Club [#{club}] not found"
 	  end
 	  club_page 
 	end
